@@ -11,7 +11,6 @@
     "build": "tsc",
     "dev": "vite"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "WhatsApp Chat Render is a React component library that allows you to easily create and display WhatsApp-style chat interfaces in your web applications.",
@@ -40,5 +39,22 @@
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.8.1",
     "vite": "^5.4.8"
-  }
+  },
+  "keywords": [
+    "whatsapp-ui",
+    "whatsapp-chat",
+    "whatsapp-chat-render",
+    "whatsapp-chat-preview",
+    "whatsapp-chat-component",
+    "whatsapp-chat-interface",
+    "whatsapp-chat-message",
+    "whatsapp-chat-message-preview",
+    "whatsapp-chat-message-component",
+    "whatsapp-chat-message-interface",
+    "react",
+    "typescript",
+    "vite",
+    "component",
+    "npm-package"
+  ]
 }
