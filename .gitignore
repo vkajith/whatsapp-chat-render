@@ -1,0 +1,75 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Vite
+dist/
+.vite/
+.cache/
+.temp/
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Dependency directories
+jspm_packages/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Typescript
+*.tsbuildinfo
+
+# Vite Cache
+.cache/
+
+# Build output
+dist/
+out/
+
+# ESLint
+.eslintcache
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Optional npm cache directory
+.npm/
+
+# Parcel-bundler cache (if applicable)
+.cache/
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Git tags
+*.tgz
+
+# Ignore compiled JS files if using TypeScript
+**/*.js
+**/*.js.map
+
+# Ignore compiled CSS files if using SASS/SCSS or PostCSS
+**/*.css
+**/*.css.map
+
+# Coverage reports from testing
+coverage/
+
+# Ignore build artifacts if using TypeScript
+dist/
