@@ -1,18 +1,18 @@
 // src/main.tsx
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css'  // Add this line
-import { WhatsappChatRender, WhatsappChat } from 'whatsapp-chat-render';
-
+import './index.css';
+import WhatsappChatRender from './WhatsappChatRender';
+import WhatsappChat from './components/WhatsappChat';
 
 const App = () => {
   return (
-    <div>
-        <WhatsappChatRender>
-            <div className="flex flex-col gap-2">
-                <WhatsappChat message="Hi, Whatsapp message preview!" />
-            </div>
-        </WhatsappChatRender>
+    <div className="min-h-screen bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex items-center justify-center">
+            <WhatsappChatRender>
+                <div className="flex flex-col gap-2">
+                    <WhatsappChat message="Hi, Whatsapp message preview!" />
+                </div>
+            </WhatsappChatRender>
     </div>
   );
 };

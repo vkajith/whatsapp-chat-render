@@ -3,8 +3,8 @@ import React from 'react';
 const WhatsappChatRender: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className="flex items-center justify-center h-screen">
-      <div className="bg-[url('/illustrations/iPhonePro.svg')] h-[466px] w-[313px] bg-no-repeat bg-center">
-        <div className="h-[466px] w-[313px]">
+      <div className="bg-[url('/illustrations/iPhonePro.svg')] h-[466px] w-[313px] bg-cover">
+        <div className="h-[466px] w-[313px] rounded-t-[30px]">
           <div className="flex items-center justify-between px-4 py-2 mt-[45px] ml-[18px]">
             <div className="flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
